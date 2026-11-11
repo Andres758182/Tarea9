@@ -1,0 +1,24 @@
+{
+  "name": "tarea9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andres758182/Tarea9.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Andres758182/Tarea9/issues"
+  },
+  "homepage": "https://github.com/Andres758182/Tarea9#readme",
+  "dependencies": {
+    "moment": "^2.31.0"
+  }
+}
