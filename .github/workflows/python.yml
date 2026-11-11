@@ -1,0 +1,18 @@
+name: Yaml Python
+on: push
+jobs:
+  build-python:
+    runs-on: ubuntu-latest
+    container: python:3.13
+
+    steps:
+      - name: Verificar entorno
+        run: |
+          echo "Ejecutando dentro de Docker"
+          python --version
+
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Ejecutar script
+        run: python hola.py
